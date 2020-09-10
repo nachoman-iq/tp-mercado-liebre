@@ -1,0 +1,368 @@
+#img-banner {
+  width: 100%;
+}
+
+header {
+  background-color: #EAC926;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+#tarjeta {
+  margin-left: 50px;
+}
+
+#logo-mercado {
+  width: 80%;
+}
+
+h1 {
+  font-size: 12px;
+  text-align: center;
+}
+
+.logo-meli {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.div-logo {
+  width: 50%;
+}
+
+.bar-busqueda {
+  width: 50%;
+}
+
+.menu {
+  width: 50%;
+  display: inline-block;
+}
+
+.input-busqueda {
+  border: 2px solid #ebebeb;
+  width: 50%;
+  border-radius: 8px;
+  outline: none;
+  padding: 4px;
+}
+
+form {
+  margin-left: 20px;
+  max-width: 350px;
+  display: flex;
+  flex-flow: column;
+}
+
+.form-input {
+  border: 2px solid #ebebeb;
+  width: 80%;
+  border-radius: 8px;
+  outline: none;
+  padding: 5px;
+  margin: 5% 2% 5% 2%;
+}
+
+form h3 {
+  font-size: 16px;
+  margin-left: 2%;
+}
+
+form div label {
+  font-size: 16px;
+  margin-left: 2%;
+  width: 120px;
+  display: inline-block;
+}
+
+.input-intereses {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin-left: 8px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+#selec-archiv{
+  width: 50%;
+  border-radius: 5px;
+}
+
+.button-submit {
+  background-color: #0044AA;
+  border: 2px solid #ebebeb;
+  color: white;
+  width: 90%;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px;
+  margin: 5% 1% 5% 0%;
+}
+
+.button-clear {
+  background-color: #b91d47;
+  border: 2px solid #ebebeb;
+  color: white;
+  width: 90%;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px;
+  margin: 5% 1% 5% 0%;
+}
+
+.intereses {
+  width: 100%;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ebebeb;
+  margin: 0;
+}
+
+.boton-menu {
+  background-color: #0044AA;
+  width: 40px;
+  height: 40px;
+  font-size: 23px;
+  border-radius: 5px;
+  color: white;
+  padding: 9px 1px 1px 17px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.section-principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*  background-color: aqua; lo puse para ver que espacio tenia el contenedor*/
+  width: 100%;
+  height: 50%;
+}
+
+.section-ofertas {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: yellowgreen; para ver el espacio que ocupa el contenedor*/
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+}
+
+.img-prducto {
+  width: 100%;
+}
+
+article {
+  width: 223px;
+  height: 100%;
+  margin: 2% 4% 2% 4%;
+  /*  background-color: red; ver que tamaño ocupa */
+  background-color: white;
+  border: 1px solid #ebebeb;
+}
+
+.content-precio {
+  margin-top: -19px;
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#oculta {
+  display: none;
+}
+
+article:hover {
+  box-shadow: 2px 2px 10px rgb(100, 100, 100);
+  cursor: pointer;
+}
+
+article:hover>#oculta {
+  display: inline;
+}
+
+h3 {
+  font-size: 24px;
+  margin-left: 68px;
+}
+
+.icon {
+  color: #39b54a;
+  padding: 6px
+}
+
+.div-icon {
+  border-style: solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 1500px;
+  color: #39b54a;
+  margin-left: 75%;
+}
+
+h4 {
+  color: #39b54a;
+  font-size: 16px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.precios {
+  font-size: 18px;
+}
+
+.descripciones {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.iconosPie {
+  font-size: 30px;
+  color: #0044AA;
+}
+
+.titulares {
+  color: #666;
+}
+
+.hide {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  height: 500px;
+  padding-top: 25px;
+  margin: 3px;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+}
+
+footer h3 {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+/*LOGUIN*/
+
+.usuario {
+  max-width: 80%;
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+}
+
+.usuario-input {
+  width: 90%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.button-enviar {
+  background: #0044AA;
+  color: white;
+  width: 20%;
+  border-radius: 5px;
+}
+
+/*----------------------------ACA COMIENZAN LOS MEDIAQ -------------------*/
+
+@media (min-width:768px) {
+  .hide {
+    display: inline;
+    /*  background-color: aqua; lo puse para ver que espacio tenia el contenedor*/
+  }
+  #cont1 {
+    width: 38%;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+  #cont2 {
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 12px;
+    margin-left: 152px;
+  }
+  .menu-izq {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 16px;
+  }
+  .menu-der {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .boton-menu {
+    opacity: 0;
+  }
+  .logo-meli {
+    margin-top: 18px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .div-logo {
+    width: 18%;
+  }
+  .bar-busqueda {
+    width: 37%;
+  }
+  #tarjeta {
+    width: 35%;
+    margin-right: 15px;
+  }
+  .input-busqueda {
+    width: 90%;
+  }
+}
+
+@media (min-width:769px) {
+  footer {
+    padding-top: 25px;
+    margin: 3px 5% 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100%;
+  }
+  footer div {
+    padding-top: 2px;
+    height: 150px;
+    width: 30%
+  }
+}

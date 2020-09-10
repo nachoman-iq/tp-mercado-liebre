@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF; /*COMO VIENE POR DEFECTO ME PONE EN LA ETIQUETA A EL CELESTE*/
+}
+/* ESTAS AGRUEGUE YO LAS ANTERIORES VIENEN POR DEFECTO*/
+.Tipografia {
+
+   font-family: 'Times New Roman', Times, serif ;
+   color: red;
+   font-size: 30px ;
+   text-decoration-line: underline; 
+ }
+
+p {
+  font-family: Arial, Helvetica, sans-serif  ;
+}
